@@ -1,4 +1,5 @@
 # My Solution
+#
 def accum(s)
   total_string = ""
   for i in 0...s.length
@@ -8,12 +9,13 @@ def accum(s)
 end
 
 # Best Solution
-#
+
 # def accum(s)
 #   s.chars.each_with_index.map{ |c, i| c.upcase + c.downcase * i }.join('-')
 # end
 
-# Sample Test
+# Test Case
+
 # Test.describe("accum") do
 #   Test.it("Basic tests") do
 #     Test.assert_equals(accum("ZpglnRxqenU"), "Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu")

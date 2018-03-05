@@ -1,3 +1,5 @@
+# My Solution
+
 def tribonacci(signature,n)
   result_array = []
 
@@ -15,7 +17,7 @@ def tribonacci(signature,n)
   end
 end
 
-#Best Solution
+# Best Solution
 
 # def tribonacci(s, n)
 #   for i in 3..n
@@ -24,6 +26,7 @@ end
 #   return s.slice(0, n)
 # end
 
+# Test Case
 
 tribonacci([1,1,1],10) #[1,1,1,3,5,9,17,31,57,105]
 tribonacci([0,0,1],10) #[0,0,1,1,2,4,7,13,24,44]
